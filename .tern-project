@@ -1,0 +1,32 @@
+{
+    "ecmaVersion": 5,
+    "libs": [],
+    "loadEagerly": [],
+    "dontLoad": [
+        "node_modules/.bin/**/*.js",
+        "node_modules/grunt/**/*.js",
+        "node_modules/grunt-contrib-jshint/**/*.js",
+        "node_modules/grunt-git-release/**/*.js",
+        "node_modules/grunt-mocha-test/**/*.js",
+        "node_modules/**/*.md",
+        "node_modules/**/*.json",
+        "node_modules/**/*.npmignore",
+        "node_modules/**/*.yml",
+        "node_modules/**/*.markdown",
+        "node_modules/**/*.jshintrc",
+        "node_modules/**/*.tgz",
+        "node_modules/**/*.txt",
+        "node_modules/**/*LICENSE",
+        "node_modules/**/*license",
+        "node_modules/**/*AUTHORS",
+        "node_modules/**/*Makefile",
+        "node_modules/**/*stylus",
+        "node_modules/**/*LICENSE-MIT"
+    ],
+    "dependencyBudget": 5000,
+    "plugins": {
+        "node": {
+            "load": true
+        }
+    }
+}

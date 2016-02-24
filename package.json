@@ -1,0 +1,31 @@
+{
+  "name": "typed-object-builder",
+  "title": "Typed Object Builder",
+  "description": "Typed object builder library attempts to coerrce values to types. Useful when using XML or other string de-serialization utilities",
+  "version": "0.0.0",
+  "author": {
+    "name": "Stuart Williams",
+    "email": "stu.r.williams@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stuwilli/typed-object-builder.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-git-release": "^0.1.3",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "moment": "^2.11.2",
+    "underscore": "^1.8.3"
+  }
+}

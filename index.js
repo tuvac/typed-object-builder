@@ -1,6 +1,6 @@
 'use strict';
 
-var builder = require('../builder');
+var builder = require('./lib/builder');
 
 module.exports = {
 
